@@ -10,7 +10,7 @@ function setup() {
 function draw() {
    background(img1);
    
-   image(img2, 700-img2.width/2, 700-img2.height/2, 250, 250);
+   image(img2, 750-img2.width/2, 750-img2.height/2, 300, 300);
     // ellipse(500,500,250,250);
 
 //수
