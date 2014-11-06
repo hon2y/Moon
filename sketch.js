@@ -10,7 +10,7 @@ function setup() {
 function draw() {
    background(img1);
    
-   image(img2, 500, 500, 250, 250);
+   image(img2, 500-img2.width/2, 500-img2.height/2, 250, 250);
     // ellipse(500,500,250,250);
 
    var duration = 3000;
