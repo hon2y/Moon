@@ -10,8 +10,8 @@ function setup() {
 function draw() {
    background(img1);
    
-   image(img2);
-    ellipse(500,500,250,250);
+   image(img2, 500, 500, 250, 250);
+    // ellipse(500,500,250,250);
 
    var duration = 3000;
    var timing = (new Date()%duration)/duration;
