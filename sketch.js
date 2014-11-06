@@ -3,13 +3,14 @@ var img1;
 function setup() {
     createCanvas(1000, 1000);
     img1 = loadImage("bg.png");
+    img2 = loadImage("1.png");
 }
 
 
 function draw() {
    background(img1);
    
-   fill(255,255,255);
+   image(img2);
     ellipse(500,500,250,250);
 
    var duration = 3000;
