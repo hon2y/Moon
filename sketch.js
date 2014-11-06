@@ -1,7 +1,7 @@
 var img1;
 
 function setup() {
-    createCanvas(1000, 1000);
+    createCanvas(1200, 1200);
     img1 = loadImage("bg.png");
     img2 = loadImage("1.png");
 }
@@ -10,7 +10,7 @@ function setup() {
 function draw() {
    background(img1);
    
-   image(img2, 625-img2.width/2, 625-img2.height/2, 250, 250);
+   image(img2, 700-img2.width/2, 700-img2.height/2, 250, 250);
     // ellipse(500,500,250,250);
 
 //수
