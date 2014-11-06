@@ -17,7 +17,7 @@ function draw() {
    var duration = 3000;
    var timing = (new Date()%duration)/duration;
 
-   fill(100,0,0);
+   fill(146,125,125);
    ellipse(600 + Math.cos(timing*2*PI)*200,           // x좌표
         600 + Math.sin(timing*2*PI)*200,       // y좌표
         10,                                     // width
@@ -27,7 +27,7 @@ function draw() {
    var duration = 4000;
    var timing = (new Date()%duration)/duration;
 
-   fill(100,50,0);
+   fill(200,165,125);
    ellipse(600 + Math.cos(timing*2*PI)*250,           // x좌표
         600 + Math.sin(timing*2*PI)*250,       // y좌표
         30,                                     // width
@@ -37,7 +37,7 @@ function draw() {
    var duration = 2000;
    var timing = (new Date()%duration)/duration;
 
-   fill(100,50,0);
+   fill(210,215,240);
    ellipse(600 + Math.cos(timing*2*PI)*300,           // x좌표
         600 + Math.sin(timing*2*PI)*300,       // y좌표
         40,                                     // width
@@ -47,7 +47,7 @@ function draw() {
    var duration = 5000;
    var timing = (new Date()%duration)/duration;
 
-   fill(100,50,0);
+   fill(240,140,80);
    ellipse(600 + Math.cos(timing*2*PI)*300,           // x좌표
         600 + Math.sin(timing*2*PI)*300,       // y좌표
         20,                                     // width
@@ -57,7 +57,7 @@ function draw() {
    var duration = 6000;
    var timing = (new Date()%duration)/duration;
 
-   fill(100,50,0);
+   fill(160,145,165);
    ellipse(600 + Math.cos(timing*2*PI)*350,           // x좌표
         600 + Math.sin(timing*2*PI)*400,       // y좌표
         120,                                     // width
@@ -67,7 +67,7 @@ function draw() {
    var duration = 7000;
    var timing = (new Date()%duration)/duration;
 
-   fill(100,50,0);
+   fill(195,165,140);
    ellipse(600 + Math.cos(timing*2*PI)*450,           // x좌표
         600 + Math.sin(timing*2*PI)*450,       // y좌표
         100,                                     // width
@@ -77,7 +77,7 @@ function draw() {
    var duration = 5000;
    var timing = (new Date()%duration)/duration;
 
-   fill(100,50,0);
+   fill(160,170,175);
    ellipse(600 + Math.cos(timing*2*PI)*550,           // x좌표
         600 + Math.sin(timing*2*PI)*550,       // y좌표
         70,                                     // width
@@ -87,7 +87,7 @@ function draw() {
    var duration = 3000;
    var timing = (new Date()%duration)/duration;
 
-   fill(100,50,0);
+   fill(60,80,140);
    ellipse(600 + Math.cos(timing*2*PI)*600,           // x좌표
         600 + Math.sin(timing*2*PI)*600,       // y좌표
         60,                                     // width
