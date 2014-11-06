@@ -18,8 +18,8 @@ function draw() {
    var timing = (new Date()%duration)/duration;
 
    fill(100,0,0);
-   ellipse(600 + Math.cos(timing*2*PI)*100,           // x좌표
-        600 + Math.sin(timing*2*PI)*100,       // y좌표
+   ellipse(600 + Math.cos(timing*2*PI)*200,           // x좌표
+        600 + Math.sin(timing*2*PI)*200,       // y좌표
         10,                                     // width
         10);                                    // height
 
@@ -28,8 +28,8 @@ function draw() {
    var timing = (new Date()%duration)/duration;
 
    fill(100,50,0);
-   ellipse(600 + Math.cos(timing*2*PI)*150,           // x좌표
-        600 + Math.sin(timing*2*PI)*150,       // y좌표
+   ellipse(600 + Math.cos(timing*2*PI)*250,           // x좌표
+        600 + Math.sin(timing*2*PI)*250,       // y좌표
         30,                                     // width
         30);                                    // height
 
@@ -38,8 +38,8 @@ function draw() {
    var timing = (new Date()%duration)/duration;
 
    fill(100,50,0);
-   ellipse(600 + Math.cos(timing*2*PI)*200,           // x좌표
-        600 + Math.sin(timing*2*PI)*200,       // y좌표
+   ellipse(600 + Math.cos(timing*2*PI)*300,           // x좌표
+        600 + Math.sin(timing*2*PI)*300,       // y좌표
         40,                                     // width
         40);                                    // height
 
@@ -48,8 +48,8 @@ function draw() {
    var timing = (new Date()%duration)/duration;
 
    fill(100,50,0);
-   ellipse(600 + Math.cos(timing*2*PI)*250,           // x좌표
-        600 + Math.sin(timing*2*PI)*250,       // y좌표
+   ellipse(600 + Math.cos(timing*2*PI)*300,           // x좌표
+        600 + Math.sin(timing*2*PI)*300,       // y좌표
         20,                                     // width
         20);                                    // height
 
@@ -59,7 +59,7 @@ function draw() {
 
    fill(100,50,0);
    ellipse(600 + Math.cos(timing*2*PI)*350,           // x좌표
-        600 + Math.sin(timing*2*PI)*350,       // y좌표
+        600 + Math.sin(timing*2*PI)*400,       // y좌표
         120,                                     // width
         120);                                    // height
 
