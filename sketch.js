@@ -88,8 +88,8 @@ function draw() {
    var timing = (new Date()%duration)/duration;
 
    fill(60,80,140);
-   ellipse(600 + Math.cos(timing*2*PI)*650,           // x좌표
-        600 + Math.sin(timing*2*PI)*650,       // y좌표
+   ellipse(600 + Math.cos(timing*2*PI)*630,           // x좌표
+        600 + Math.sin(timing*2*PI)*630,       // y좌표
         60,                                     // width
         60);                                    // height
 }
