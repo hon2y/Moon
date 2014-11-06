@@ -34,7 +34,7 @@ function draw() {
         30);                                    // height
 
 //지
-   var duration = 2000;
+   var duration = 3300;
    var timing = (new Date()%duration)/duration;
 
    fill(210,215,240);
@@ -84,7 +84,7 @@ function draw() {
         70);                                    // height
 
 //해
-   var duration = 3000;
+   var duration = 6000;
    var timing = (new Date()%duration)/duration;
 
    fill(60,80,140);
